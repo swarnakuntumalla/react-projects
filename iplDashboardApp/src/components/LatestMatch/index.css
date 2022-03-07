@@ -1,0 +1,34 @@
+.latest-match {
+  width: 80vw;
+  min-height: 400px;
+  background-color: #0f172a;
+  border-radius: 15px;
+  padding: 20px;
+  display: flex;
+}
+
+.competing-team-logo {
+  height: 100px;
+  width: 100px;
+}
+
+.latest-matches-headings {
+  font-size: 21px;
+}
+
+@media screen and (max-width: 767px) {
+  .latest-match {
+    flex-direction: column;
+  }
+}
+
+@media screen and (min-width: 768px) {
+  .latest-match {
+    flex-direction: row;
+    justify-content: space-between;
+  }
+  .competing-team-logo {
+    height: 200px;
+    width: 200px;
+  }
+}

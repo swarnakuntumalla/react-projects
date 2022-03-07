@@ -1,0 +1,33 @@
+.match-data {
+  width: 300px;
+  height: 400px;
+  background-color: #0f172a;
+  margin-right: 15px;
+  margin-bottom: 20px;
+  border: 1px #475569 solid;
+  border-radius: 12px;
+  cursor: pointer;
+  outline: none;
+  padding: 20px;
+}
+
+.competing-team-logo1 {
+  height: 100px;
+  width: 100px;
+}
+
+.competing-team-name {
+  font-size: 20px;
+}
+
+.match-status {
+  margin-top: 50px;
+}
+
+.won {
+  color: #18ed66;
+}
+
+.lost {
+  color: #e31a1a;
+}
